@@ -23,7 +23,7 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        <h1 className=" text-8xl font-breathdemo flex mt-20 w-1/2">
+        <h1 className="text-5xl text-center sm:text-left justify-center sm:text-8xl font-breathdemo flex mt-20 sm:w-1/2">
           Hydration Without Harm.
         </h1>
       </motion.div>
@@ -33,9 +33,9 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 2 }}
       >
-        <p className="text-xl font-oxygenlight flex w-1/3">
+        <p className="text-xl text-center sm:text-left justify-center font-oxygenlight flex sm:w-1/3">
           Join us on our mission in pioneering the first 100% plastic free,
-          dispoable water bottle
+          disposable water bottle
         </p>
       </motion.div>
 

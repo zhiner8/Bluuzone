@@ -44,14 +44,14 @@ function Subscribe() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex justify center items-center w-1/2 sm:w-full sm:max-w-3xl mx-auto"
+      className="flex justify-center items-center w-1/2 sm:max-w-3xl mx-auto"
     >
       <input
         type="email"
         placeholder="Subscribe for updates"
         value={email}
         onChange={handleInput}
-        className="flex-grow text-white py-1 px-2 sm:py-2 sm:px-4 bg-transparent border border-white font-oxygenlight"
+        className="flex-grow text-white py-1 px-2 sm:py-2 sm:px-4 bg-transparent border rounded-none border-white font-oxygenlight"
       />
       <button
         type="submit"

@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
-    document.title = "BluuZone"; // Set the tab name dynamically
+    document.title = "Bluuzone"; // Set the tab name dynamically
   }, []);
   return (
     <>

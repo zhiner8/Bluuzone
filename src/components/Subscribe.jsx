@@ -44,7 +44,7 @@ function Subscribe() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center w-full max-w-3xl mx-auto"
+      className="flex items-center w-1/2 sm:w-full sm:max-w-3xl mx-auto"
     >
       <input
         type="email"
